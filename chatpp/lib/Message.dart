@@ -1,5 +1,5 @@
 //import 'package:flutter_chat_app/models/user_model.dart';
-
+//messgae class which containg diffrent attributes like name time and date
 class Message {
   String userName;
   String snippet;
