@@ -52,7 +52,10 @@ class _ChatScreenState extends State<ChatScreen> {
                   decoration: InputDecoration(
                     filled: true,
                     fillColor: AppColor.textFieldColor,
-                    border: InputBorder.none,hintText: "Type something...."
+                    border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    hintText: "Type something...."te
                   ),
                 )),
                 IconButton(icon: Icon(Icons.send), onPressed: (){},color: AppColor.secondaryColor,),
