@@ -1,3 +1,4 @@
+/*This is a ChatBox Screen code*/
 import 'package:chatpp/Message.dart';
 import 'package:chatpp/app_color.dart';
 import 'package:flutter/material.dart';
