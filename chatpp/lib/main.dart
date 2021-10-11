@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'HomeScreen.dart';
 
 void main() {
+  // This widget is the main void function of the app.
   runApp(MyApp());
 }
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+        // This widget will initiate the app working.
       initialRoute: '/',
       routes: {
         '/':(context)=>HomeScreen(),
