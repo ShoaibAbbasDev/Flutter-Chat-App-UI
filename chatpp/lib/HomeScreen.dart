@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: AppColor.miniColor,
         elevation:0.0,
-        title:Text('Chat'),
+        title:Text('Flutter Chat App'),
         centerTitle:true,
       ),
       body: Padding(
