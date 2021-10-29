@@ -65,6 +65,12 @@ static List<Message> chats = [
     snippet: 'You\'re always special to me nick! But you know my struggle.',
     avator: 'https://randomuser.me/api/portraits/women/7.jpg',
   ),
+  Message(
+    userName: 'Ant-Man',
+    time: '12:45 AM',
+    snippet: 'Hello. I\'m Ant-Man. Haven\'t you heard of me? No, you wouldn\'t have heard of me.',
+    avator: 'https://randomuser.me/api/portraits/women/11.jpg',
+  ),
 ];
 
 // EXAMPLE MESSAGES IN CHAT SCREEN
@@ -116,6 +122,12 @@ static List<Message> messages = [
     time: '2:00 PM',
     snippet: 'I hope my family is doing well.',
     avator: 'https://randomuser.me/api/portraits/men/20.jpg',
+  ),
+  Message(
+    userName: 'Ant-Man',
+    time: '12:45 AM',
+    snippet: 'Hello. I\'m Ant-Man. Haven\'t you heard of me? No, you wouldn\'t have heard of me.',
+    avator: 'https://randomuser.me/api/portraits/women/11.jpg',
   ),
 ];
 }
